@@ -1,0 +1,13 @@
+# Core dependency used by the behavioral scorer module
+scikit-learn>=1.3.0
+
+# Optional advanced modules (used only by reference implementations, not by fast_rank.py):
+# - sentence-transformers: embedding_ranker.py
+# - faiss-cpu: vector_db_simulator.py
+# - xgboost: learning_to_rank.py
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+# sentence-transformers>=2.2.0  # Optional
+# faiss-cpu>=1.7.0              # Optional
+# xgboost>=2.0.0                # Optional

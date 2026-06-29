@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+# Allow candidates.jsonl.gz to be tracked (LFS-managed via .gitattributes)
+# Only ignore packaged/archived gzip files
+.tar.gz
+*.zip
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.local
+submission*.csv

@@ -1,0 +1,8 @@
+# Root requirements.txt for Redrob AI Candidate Ranking System
+# Python version: 3.11+
+#
+# The main ranking script (fast_rank.py) uses only the Python standard library
+# plus the local ai_ranking_system.behavioral_scorer module.
+# No external pip packages are required for the primary pipeline.
+
+python>=3.11
