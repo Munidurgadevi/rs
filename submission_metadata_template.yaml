@@ -26,15 +26,10 @@ team_members:
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/YOUR_USERNAME/YOUR_REPO"
-
-
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
-
-
-
-reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
-
+github_repo: "https://github.com/Munidurgadevi/rs"
+sandbox_link: "https://codesandbox.io/p/sandbox/github/Munidurgadevi/rs"
+replit     : "https://rs--munidurgadevik.replit.app/"
+reproduce_command: "py fast_rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
 
 # ============================================================================
 # Compute environment
@@ -43,7 +38,7 @@ compute:
   platform: "MacBook Pro M2"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
   cpu_cores: 8                                  # Number of CPU cores used
   ram_gb: 16                                    # Available RAM in GB
-  python_version: "3.11.3"                      # python --version
+  python_version: "3.11."                      # python --version
   os: "macOS 14.2"                              # Or "Ubuntu 22.04 LTS", etc.
   uses_gpu_for_inference: false                 # Must be false — see compute constraints
   has_network_during_ranking: false             # Must be false — no API calls during ranking

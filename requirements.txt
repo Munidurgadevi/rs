@@ -5,4 +5,4 @@
 # plus the local ai_ranking_system.behavioral_scorer module.
 # No external pip packages are required for the primary pipeline.
 
-python>=3.11
+python>=3.11.3

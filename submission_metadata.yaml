@@ -28,7 +28,7 @@ team_members:
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/team-alpha/india-runs-ranking"
+github_repo: "https://github.com/Munidurgadevi/rs"
 sandbox_link: "https://huggingface.co/spaces/team-alpha/redrob-ranker"
 reproduce_command: "py fast_rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
 # The single command that produces submission.csv from candidates.jsonl.
@@ -41,7 +41,7 @@ compute:
   platform: "Local CPU box"
   cpu_cores: 8
   ram_gb: 16
-  python_version: "3.13.0"
+  python_version: "3.11.3"
   os: "Windows 11"
   uses_gpu_for_inference: false   # Must be false — see compute constraints
   has_network_during_ranking: false  # Must be false — no API calls during ranking
