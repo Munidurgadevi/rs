@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 # Fast version (no model download, ~32 seconds on CPU)
 # Produces submission.csv from candidates.jsonl
-py fast_rank.py --candidates candidates.jsonl --out team_id.csv"
+py fast_rank.py --candidates candidates.jsonl --out team_id.csv
 ```
 
 ## Constraints
