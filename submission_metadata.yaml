@@ -29,9 +29,10 @@ team_members:
 # Code and reproducibility
 # ============================================================================
 github_repo: "https://github.com/Munidurgadevi/rs"
-sandbox_link: "https://huggingface.co/spaces/team-alpha/redrob-ranker"
-reproduce_command: "py fast_rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
-# The single command that produces submission.csv from candidates.jsonl.
+sandbox_link: "https://codesandbox.io/p/sandbox/github/Munidurgadevi/rs"
+replit     : "https://rs--munidurgadevik.replit.app/"
+reproduce_command: "py fast_rank.py --candidates ./candidates.jsonl.gz --out ./team_id.csv"
+# The single command that produces team_id.csv from candidates.jsonl.gz.
 # Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
 
 # ============================================================================
