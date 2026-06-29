@@ -28,4 +28,4 @@ Thumbs.db
 *.log
 .env
 .env.local
-submission*.csv
+# submission*.csv
