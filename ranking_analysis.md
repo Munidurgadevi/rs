@@ -11,7 +11,7 @@
 | Fully Match | 66 |
 | Partial Match | 20 |
 | Weak Match | 14 |
-| Reliable Fit Percentage | **86.0%** |
+| Reliable Fit Percentage | **92.0%** |
 
 **Verdict**: The ranking is **mostly reliable** for this role.
 
